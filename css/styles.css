@@ -1,0 +1,158 @@
+
+body {
+	margin: 20px;
+	background-color: black;
+	font-family: 'New Rocker', cursive;
+	font-size: 20px;
+
+}
+@media (max-width: 1028px){
+	.title-image{
+		position: static;
+		transform: rotate(0deg);
+	}
+	#title{
+		text-align: center;
+	}
+}
+
+/*@media screen and (min-width: 601px) {
+  div.header {
+    font-size: 1em;
+  }
+}*/
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.header {
+    font-size: 1em;
+  }
+}
+
+li{
+	color: white;
+}
+a{
+	color: white;
+	font-weight: bold;
+}
+.one{
+	background: url("https://www.changeleaders.in/Image.jpg");
+}
+.image1{
+	height: 100%;
+	width: 100%;
+}
+.two{
+	padding: 50px;
+	padding-bottom: 0;
+	height: 315; 
+	width: 420;
+}
+.h1{
+	text-align: center;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	color: white;
+}
+.heading{
+	font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  
+/*  position: fixed;*/ /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+/* Main content */
+.navbar {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+#videos{
+	padding: 25px 5px 0 25px;
+}
+
+
+
+/*Footer*/
+
+.foot{
+
+	padding: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: white;
+	
+}
+.Footer{
+	
+	text-align: center;
+	padding: 20px;
+	
+}
+.fab{
+	padding: 10px;
+}
+.fab:hover{
+	color: #E5E4E2;
+}
+.fas{
+	padding: 10px;
+}
+.fas:hover{
+	color:  #E5E4E2;
+}
+.Copyright{
+	padding-top: 10px;
+}
+
+/*Videos.html*/
+
+.video-content{
+	padding: 0 0 0 0;
+	align-content: right;
+}
+.video-section{
+	padding: 10px;
+}
+
+/* Dotted red border */
+hr{
+  border-top: 1px dotted red;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 50px;
+  left: 16px;
+  font-size: 35px;
+}
+
